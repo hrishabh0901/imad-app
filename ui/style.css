@@ -1,12 +1,11 @@
 body {
     font-family: sans-serif;
-    background-color: white;
+    background-color: lightgrey;
     margin-top: 75px;
 }
 
-.container {
+.center {
     text-align: center;
-    border: 200px;
 }
 
 .text-big {
@@ -20,4 +19,3 @@ body {
 .img-medium {
     height: 200px;
 }
-
