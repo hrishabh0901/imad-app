@@ -180,3 +180,8 @@ app.get('/article-two',function(req,res){
 app.get('/article-three',function(req,res){
   res.sendFile(path.join(__dirname, 'ui','article-three.html'));
 });
+
+var port = 80;
+app.listen(port, function () {
+  console.log(`IMAD course app listening on port ${port}!`);
+});
